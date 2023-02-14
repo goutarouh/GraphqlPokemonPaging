@@ -1,0 +1,7 @@
+query GetPokemon{
+  pokemon(name: "Pikachu") {
+    number
+    name
+    types
+  }
+}
